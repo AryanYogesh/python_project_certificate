@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate generator</title>
+</head>
+<body>
+    <h1>Certificate generator</h1>
+    <form action="{{url_for('generate')}}" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="course">Course Name</label>
+        <input type="text" id="course" name="course" required><br><br>
+
+        <label for="all_classes">All classes completed?</label>
+        <select name="all_classes" id="all_classes" required>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select><br><br>
+
+        <label for="all_assignments">All Assignments completed?</label>
+        <select name="all_assignments" id="all_assignments" required>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select><br><br>
+
+        <button type="submit">Generate certificate</button>
+
+    </form>
+    
+</body>
+</html>
