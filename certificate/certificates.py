@@ -1,17 +1,15 @@
 
 
 class cerf:
-    def __init__(self,name,course,classes,assignment):
+    def __init__(self, name, course, all_classes, all_assignments):
         self.name = name
         self.course = course
-        self.classes = classes
-        self.assignment = assignment
+        self.all_classes = all_classes
+        self.all_assignments = all_assignments
 
     def generate_certificate(self):
-        dicts={}
-        if self.classes.lower()=='yes' and self.assignment.lower()=='yes':
-            dicts={'name':self.name,
-                   'course':self.course}
-            return dicts
-
+        if self.all_classes == 'Yes' and self.all_assignments == 'Yes':
+            return {'name': self.name, 'course': self.course}
+        else:
+            return {}
             
