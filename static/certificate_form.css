@@ -49,6 +49,10 @@ button{
     border: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 button:hover{

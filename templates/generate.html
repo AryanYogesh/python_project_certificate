@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Certificate</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='generate.css')}}">
 </head>
 <body>
-    <p>This is to certify that <strong>{{name}}</strong><br>
-    has successfully completed the <strong>{{course}} course</strong><br>
-    from Besant technologies</p>
-    <p>CONGRATULATIONS!!</p>
+
+    <div class="first-container">
+        <div class="Certificate-container">
+            <div class="Certificate-title">
+                <h1>Certificate of completion</h1>
+            </div>
+            <p class="line-one">This is to certify that 
+                <div class="Certificate-name">
+                    <strong>{{name}}</strong>
+                </div>
+                <div class="Certificate-course">
+                    has successfully completed the <strong>{{course}} course</strong><br>
+                    from <strong>Besant technologies</strong></p>
+                </div>
+                
+                <p class="congo">CONGRATULATIONS!!</p>
+        </div>
+    </div>
+    
+    
 </body>
 </html>

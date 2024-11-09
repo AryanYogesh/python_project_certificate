@@ -1,0 +1,60 @@
+body{
+    background-color: #434242;
+}
+
+.first-container{
+    max-width: 750px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-content: center;
+    border-radius: 5px;
+}
+
+.Certificate-container{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.Certificate-title{
+    font-family: 'poppins', sans-serif;
+    font-size: 24px;
+    color: #1a3e59;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.line-one{
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Certificate-name{
+    font-size: 30px;
+    color: #333;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.Certificate-course{
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.congo{
+    color: #333;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
